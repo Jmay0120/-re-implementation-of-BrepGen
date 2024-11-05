@@ -65,7 +65,7 @@ python sample_points.py --in_dir samples_abc --out_dir sampled_pointcloud_abc
 python sample_points.py --in_dir samples_deepcad --out_dir sampled_pointcloud_deepcad
 ```
 
-## 3. 与测试集点云比较，计算评价指标（需要提前下载test数据集）
+## 3. 与测试集点云比较，计算评价指标（需要提前从原文链接下载test数据集）
 ```
 # 计算abc数据集的JSD、MMD和COV分数，结果保存在sampled_pointcloud_abc_results.txt中
 python pc_metric.py  --fake sampled_pointcloud_abc --real abc_test_pcd

@@ -1,1 +1,1 @@
-# -re-implementation-of-BrepGen
+# re-implementation-of-BrepGen
